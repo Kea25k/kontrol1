@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Контрольная</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЧудоНадип | Главная</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это простая HTML-страница.</p>
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">ЧудоНадип</a>
+      <ul class="menu">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Геройский раздел -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Добро пожаловать в ЧудоНадип!</h1>
+      <p>Мы создаем чудеса каждый день.</p>
+      <button class="btn-primary">Узнать больше</button>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Кто мы такие?</h2>
+      <p>Мы команда профессионалов, которые любят свое дело и всегда готовы помочь вам создать что-то особенное.</p>
+      <img src="images/team.jpg" alt="Команда ЧудаНадипа">
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Наши услуги</h2>
+      <div class="service-cards">
+        <div class="card">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Дизайн</h3>
+          <p>Создадим уникальный дизайн для вашего проекта.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <h3>Разработка</h3>
+          <p>Реализуем ваши идеи в жизнь с помощью современных технологий.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Маркетинг</h3>
+          <p>Поможем продвинуть ваш продукт на рынке.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контактная информация -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Свяжитесь с нами</h2>
+      <form action="#" method="post">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Ваша почта" required>
+        <textarea rows="5" placeholder="Сообщение" required></textarea>
+        <button type="submit" class="btn-primary">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2023 ЧудоНадип. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <!-- Подключение шрифтов и иконок -->
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
 </body>
 </html>
